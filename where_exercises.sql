@@ -11,4 +11,3 @@ where e.last_name like 'e%';
 select *
 from employees.employees e
 where e.last_name like '%q%';
-
