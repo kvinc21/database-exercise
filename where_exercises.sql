@@ -4,7 +4,7 @@ SELECT emp_no, first_name, last_name
 FROM employees.employees e
 WHERE e.last_name IN ('Irena', 'Vidya', 'Maya');
 
-select *
+select count(*)
 from employees.employees e
 where e.last_name like 'e%';
 
