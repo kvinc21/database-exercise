@@ -29,3 +29,8 @@ group by last_name;
  group by last_name
 order by last_name desc;
 
+
+select gender, count(gender) count
+from employees
+where first_name in ('Irena', 'Vidya', 'Maya')
+GROUP BY gender;
