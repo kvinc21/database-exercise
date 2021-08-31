@@ -1,0 +1,23 @@
+1. USER
+    -username/
+    -user id (PRIME KEY)
+    -user email
+    -user password
+
+2. AD
+    -user id on ad(foreign key to retrieve data)
+    - title of add
+    - ad decription
+    - ad_id
+
+3. CATEGORY
+    - category_id
+    - help wanted
+    - giveaway
+    - furniture
+    - movie tickets
+    - back to school
+
+4. AD_CATEGORY(LINKS AD & CATEGORY BY ID)
+    - ad_id
+    - category_id
